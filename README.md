@@ -19,8 +19,3 @@ This repository contains a Power BI project that visualizes sales and performanc
 - **Adding Images to Slicer**: Displaying product images alongside data points.
 - **Image Area Size Customization**: Adjusting slicer for proper visualization.
 - **Page Navigation**: Seamless transitions between Overview, Products, and Product Views.
-  
-### DAX Measures:
-- **All_Overall_Sales**: Ensures that the category filter does not impact the KPI card showing overall sales.
-```DAX
-All_Overall_Sales = CALCULATE([Filter Sale], ALL('amazon-fashion - YT'[Category]))
